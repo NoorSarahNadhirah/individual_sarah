@@ -1,0 +1,52 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	background: url(12.png); no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.navbar{
+	height: 100px;
+	width: 100%;
+	background: #999;
+}
+.navbar ul{
+	float: right;
+	margin-right: 30px;
+}
+.navbar ul li{
+	List-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	text-decoration:none;
+	color: #000;
+	font-size:24px;
+	padding: 6px 13px;
+	font-family:fantasy;
+	transition: .4s;
+	
+}
+.navbar ul li a.active
+.navbar ul li a:hover{ 
+	background: #000;
+	border-radius: 2px;
+}
+.center h1{
+	color: #900;
+	font-size: 70px;
+	font-family:"Comic Sans MS", cursive;
+	width: 565px;
+	margin top: 40px;
+	text-align: center;
+}
+.center td{
+	color: #FFF;
+	font-size: 24px;
+	border-color:#FFF;
+}
+	
